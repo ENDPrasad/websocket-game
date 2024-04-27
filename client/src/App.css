@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.game-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-box {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.game-box > div {
+  border: 1px solid black;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.zero {
+}
+
+.cross {
+  /* background-color: ; */
+}
+
+.game-box > div:hover {
+  background-color: rgb(233, 230, 230);
+}
